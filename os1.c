@@ -6,7 +6,7 @@
 
 #define SIZE 5
 
-static volatile char counter = 0;
+static volatile int counter = 0;
 
 struct _data {
     int t,out;
